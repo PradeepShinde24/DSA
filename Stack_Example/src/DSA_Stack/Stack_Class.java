@@ -7,7 +7,8 @@ public class Stack_Class
 {
     int tos, MaxSize, s[];
 
-    Stack_Class(int size) {
+    Stack_Class(int size)
+    {
         tos = -1;
         MaxSize = size;
         s = new int[size];
